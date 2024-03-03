@@ -33,6 +33,27 @@
 			remoteGlobalIDString = F49DA7A22B945573004A32B3;
 			remoteInfo = MagicTravel;
 		};
+		F49DA8182B949BCE004A32B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49DA8122B949BCD004A32B3 /* CityTravel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F49DA7DF2B949BCB004A32B3;
+			remoteInfo = CityTravel;
+		};
+		F49DA81A2B949BCE004A32B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49DA8122B949BCD004A32B3 /* CityTravel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F49DA7F52B949BCD004A32B3;
+			remoteInfo = CityTravelTests;
+		};
+		F49DA81C2B949BCE004A32B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49DA8122B949BCD004A32B3 /* CityTravel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F49DA7FF2B949BCD004A32B3;
+			remoteInfo = CityTravelUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +70,7 @@
 		F49DA7C32B945575004A32B3 /* MagicTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49DA7C72B945575004A32B3 /* MagicTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTravelUITests.swift; sourceTree = "<group>"; };
 		F49DA7C92B945575004A32B3 /* MagicTravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F49DA8122B949BCD004A32B3 /* CityTravel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CityTravel.xcodeproj; path = ../../CityTravel/CityTravel.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,7 @@
 		F49DA7A52B945573004A32B3 /* MagicTravel */ = {
 			isa = PBXGroup;
 			children = (
+				F49DA8122B949BCD004A32B3 /* CityTravel.xcodeproj */,
 				F49DA7A62B945573004A32B3 /* AppDelegate.swift */,
 				F49DA7A82B945573004A32B3 /* SceneDelegate.swift */,
 				F49DA7AA2B945573004A32B3 /* ViewController.swift */,
@@ -125,6 +148,16 @@
 				F49DA7C92B945575004A32B3 /* MagicTravelUITestsLaunchTests.swift */,
 			);
 			path = MagicTravelUITests;
+			sourceTree = "<group>";
+		};
+		F49DA8132B949BCD004A32B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49DA8192B949BCE004A32B3 /* CityTravel.app */,
+				F49DA81B2B949BCE004A32B3 /* CityTravelTests.xctest */,
+				F49DA81D2B949BCE004A32B3 /* CityTravelUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +250,12 @@
 			mainGroup = F49DA79A2B945573004A32B3;
 			productRefGroup = F49DA7A42B945573004A32B3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F49DA8132B949BCD004A32B3 /* Products */;
+					ProjectRef = F49DA8122B949BCD004A32B3 /* CityTravel.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F49DA7A22B945573004A32B3 /* MagicTravel */,
@@ -225,6 +264,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F49DA8192B949BCE004A32B3 /* CityTravel.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CityTravel.app;
+			remoteRef = F49DA8182B949BCE004A32B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F49DA81B2B949BCE004A32B3 /* CityTravelTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CityTravelTests.xctest;
+			remoteRef = F49DA81A2B949BCE004A32B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F49DA81D2B949BCE004A32B3 /* CityTravelUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CityTravelUITests.xctest;
+			remoteRef = F49DA81C2B949BCE004A32B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F49DA7A12B945573004A32B3 /* Resources */ = {
